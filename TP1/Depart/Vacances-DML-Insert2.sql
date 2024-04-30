@@ -1,0 +1,3602 @@
+/* **********************************************************
+	DML Insert - SCRIPT No 2
+	Schéma MRD:	"Cas Village Vacances"
+	Auteur:		Sylvie Monjal - Mathieu Simard
+***********************************************************/
+
+/* AVANT L'EXÉCUTION DE CE SCRIPT No 2:
+	- EXÉCUTEZ LE SCRIPT "Vacances-DMLInsert1.sql"
+*/
+USE VILLAGE_VACANCES
+
+/*===============================================================================
+     Table CLIENT
+===============================================================================*/
+
+INSERT INTO
+	CLIENT
+		(
+		 NOM,
+		 PRENOM,
+		 SEXE,
+		 TEL_DOMICILE,
+		 ADRESSE)
+	VALUES
+		(
+		 'Daho',
+		 'Étienne',
+		 'M',
+		 '4503452511',
+		 'Montréal');
+
+INSERT INTO
+	CLIENT
+		(
+		 NOM,
+		 PRENOM,
+		 SEXE,
+		 TEL_DOMICILE,
+		 ADRESSE)
+	VALUES
+		(
+		 'Fiset',
+		 'Raymond',
+		 'M',
+		 '5143456513',
+		 '159, Av Turcotte, G1K 4X6, Montréal');
+INSERT INTO
+    CLIENT
+		(
+		 NOM,
+		 PRENOM,
+		 SEXE,
+		 TEL_DOMICILE,
+		 ADRESSE)
+	VALUES
+		(
+		 'Gosselin',
+		 'Yvonne',
+		 'F',
+		 '4186884212',
+		 '159, Rue Brown, Québec');
+INSERT INTO
+	CLIENT
+		(
+		 NOM,
+		 PRENOM,
+		 SEXE,
+		 TEL_DOMICILE,
+		 ADRESSE)
+	VALUES
+		(
+		 'Dupuis',
+		 'Pierre',
+		 'M',
+		 '5143452511',
+		 'Des Érables, MONTRÉAL');
+INSERT INTO
+	CLIENT
+		(
+		 NOM,
+		 PRENOM,
+		 SEXE,
+		 TEL_DOMICILE,
+		 ADRESSE)
+	VALUES
+		(
+		 'Paré',
+		 'Marine',
+		 'F',
+		 '4459879351',
+		 'Magog');
+INSERT INTO
+	CLIENT
+		(
+		 NOM,
+		 PRENOM,
+		 SEXE,
+		 TEL_DOMICILE,
+		 ADRESSE)
+	VALUES
+		(
+		 'Caron',
+		 'Léo',
+		 'M',
+		 '5144122296',
+		 '12, ROYALE, MONTREAL');
+INSERT INTO
+	CLIENT
+		(
+		 NOM,
+		 PRENOM,
+		 SEXE,
+		 TEL_DOMICILE,
+		 ADRESSE)
+	VALUES
+		(
+		 'St-Onge',
+		 'Éric',
+		 'M',
+		 '5146796600',
+		 '181, St-Louis, Montréal');
+INSERT INTO
+	CLIENT
+		(
+		 NOM,
+		 PRENOM,
+		 SEXE,
+		 TEL_DOMICILE,
+		 ADRESSE)
+	VALUES
+		(
+		 'Plante',
+		 'Josée',
+		 'F',
+		 '5142365510',
+		 '471, Veillon, Montréal, Qc');
+INSERT INTO
+	CLIENT
+		(
+		 NOM,
+		 PRENOM,
+		 SEXE,
+		 TEL_DOMICILE,
+		 ADRESSE)
+	VALUES
+		(
+		 'Fortin',
+		 'Marine',
+		 'F',
+		 '4184122296',
+		 '412, 3Rue, QUEBEC');
+INSERT INTO
+	CLIENT
+		(
+		 NOM,
+		 PRENOM,
+		 SEXE,
+		 TEL_DOMICILE,
+		 ADRESSE)
+	VALUES
+		(
+		 'Plante',
+		 'Josée',
+		 'F',
+		 '5142385510',
+		 '471, Veillon, Montréal, Qc');
+INSERT INTO
+	CLIENT
+		(
+		 NOM,
+		 PRENOM,
+		 SEXE,
+		 TEL_DOMICILE,
+		 ADRESSE)
+	VALUES
+		(
+		 'St-Onge',
+		 'Éric',
+		 'M',
+		 '5144122296',
+		 '12, ROYALE, MONTREAL');
+INSERT INTO
+	CLIENT
+		(
+		 NOM,
+		 PRENOM,
+		 SEXE,
+		 TEL_DOMICILE,
+		 ADRESSE)
+	VALUES
+		(
+		 'Fiset',
+		 'Valérie',
+		 'F',
+		 '4187726453',
+		 NULL);
+INSERT INTO
+	CLIENT
+		(
+		 NOM,
+		 PRENOM,
+		 SEXE,
+		 TEL_DOMICILE,
+		 ADRESSE)
+	VALUES
+		(
+		 'Roy',
+		 'Paul',
+		 'M',
+		 '5147726757',
+		 '200, St-jean, montreal');
+INSERT INTO
+	CLIENT
+		(
+		 NOM,
+		 PRENOM,
+		 SEXE,
+		 TEL_DOMICILE,
+		 ADRESSE)
+	VALUES
+		(
+		 'Dallaire',
+		 'Karine',
+		 'F',
+		 '4152312512',
+		 'mégantic');
+
+/*===============================================================================
+     Table RESERVATION - Table SEJOUR
+===============================================================================*/
+
+
+-- == Village Casa-Dali ==
+-- debut réservation
+/* réservation 1: 5 nuits - 2 logements */
+INSERT INTO
+	RESERVATION
+		(
+		 DATE_RESERVATION,
+		 ID_CLIENT,
+		 ID_VILLAGE)
+	VALUES
+		(
+		 '2022-02-12',
+		 1,
+		 (SELECT ID_VILLAGE FROM VILLAGE WHERE NOM_VILLAGE = 'Casa-Dali'));
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-15',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 108 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 4);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-15',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 109 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+         (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-16',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 108 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 4);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-16',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 109 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-17',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 108 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 4);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-17',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 109 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-18',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 108 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 4);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-18',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 109 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-19',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 108 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 4);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-19',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 109 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+-- fin réservation
+-- debut réservation
+/* réservation 2: 6 nuits - 2 logements */
+INSERT INTO
+	RESERVATION
+		(
+		 DATE_RESERVATION,
+		 ID_CLIENT,
+		 ID_VILLAGE)
+	VALUES
+		(
+		 '2022-02-13',
+		 8,
+		 (SELECT ID_VILLAGE FROM VILLAGE WHERE NOM_VILLAGE = 'Casa-Dali'));
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-13',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 18 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-13',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 19 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-14',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 18 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-14',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 19 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-15',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 18 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-15',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 19 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-16',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 18 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-16',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 19 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-17',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 18 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-17',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 19 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-18',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 18 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-18',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 19 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+-- fin réservation
+
+-- debut réservation
+-- debut réservation
+/* réservation 3: 4 nuits - 1 logement */
+INSERT INTO
+	RESERVATION
+		(
+		 DATE_RESERVATION,
+		 ID_CLIENT,
+		 ID_VILLAGE)
+	VALUES
+		(
+		 '2022-02-15',
+		 7,
+		 (SELECT ID_VILLAGE FROM VILLAGE WHERE NOM_VILLAGE = 'Casa-Dali'));
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-09',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 108 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 3);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-10',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 108 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 3);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-11',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 108 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 3);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-12',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 108 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 3);
+-- fin réservation
+-- debut réservation
+/* réservation 4: 7 nuits - 5 logements */
+INSERT INTO
+	RESERVATION
+		(
+		 DATE_RESERVATION,
+		 ID_CLIENT,
+		 ID_VILLAGE)
+	VALUES
+		(
+		 '2022-02-24',
+		 2,
+		 (SELECT ID_VILLAGE FROM VILLAGE WHERE NOM_VILLAGE = 'Casa-Dali'));
+INSERT INTO
+    SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-17',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 100 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-17',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 101 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-17',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 102 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-17',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 104 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 5);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-17',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 106 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 4);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-18',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 100 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-18',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 101 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-18',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 102 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-18',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 104 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 5);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-18',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 106 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 4);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-19',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 100 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-19',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 101 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-19',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 102 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-19',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 104 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 5);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-19',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 106 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 4);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-20',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 100 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-20',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 101 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-20',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 102 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-20',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 104 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 5);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-20',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 106 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 4);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-21',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 100 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-21',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 101 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-21',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 102 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-21',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 104 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 5);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-21',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 106 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 4);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-22',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 100 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-22',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 101 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-22',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 102 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-22',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 104 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 5);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-22',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 106 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 4);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-23',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 100 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-23',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 101 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-23',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 102 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-23',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 104 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 5);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-23',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 106 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 4);
+-- fin réservation
+
+/* réservation 5: 6 nuits - 2 logements */
+-- debut réservation
+INSERT INTO
+	RESERVATION
+		(
+		 DATE_RESERVATION,
+		 ID_CLIENT,
+		 ID_VILLAGE)
+	VALUES
+		(
+		 '2022-02-19',
+		 5,
+		 (SELECT ID_VILLAGE FROM VILLAGE WHERE NOM_VILLAGE = 'Casa-Dali'));
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-20',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 103 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 5);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-20',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 108 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 4);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-21',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 103 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 5);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-21',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 108 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 4);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-22',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 103 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 5);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-22',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 108 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 4);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-23',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 103 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 5);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-23',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 108 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 4);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-24',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 103 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 5);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-24',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 108 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 4);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-25',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 103 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 5);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-25',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 108 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 4);
+-- fin réservation
+-- debut réservation
+/* réservation 6: 4 nuits - 1 logement */
+INSERT INTO
+	RESERVATION
+		(
+		 DATE_RESERVATION,
+		 ID_CLIENT,
+		 ID_VILLAGE)
+	VALUES
+		(
+		 '2022-01-31',
+		 12,
+		 (SELECT ID_VILLAGE FROM VILLAGE WHERE NOM_VILLAGE = 'Casa-Dali'));
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-06',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 19 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-07',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 19 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-08',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 19 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-09',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 19 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+-- fin réservation
+/* réservation 7: 4 nuits - 1 logement+tous les logements de type C2 du village */
+-- debut réservation
+INSERT INTO
+	RESERVATION
+		(
+		 DATE_RESERVATION,
+		 ID_CLIENT,
+		 ID_VILLAGE)
+	VALUES
+		(
+		 '2021-12-12',
+		 9,
+		 (SELECT ID_VILLAGE FROM VILLAGE WHERE NOM_VILLAGE = 'Casa-Dali'));
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	SELECT
+         '2022-03-26',
+		LOGEMENT.ID_LOGEMENT,
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		2
+	FROM
+		LOGEMENT
+            INNER JOIN VILLAGE
+                ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+            INNER JOIN TYPE_LOGEMENT
+                ON LOGEMENT.ID_TYPE_LOGEMENT = TYPE_LOGEMENT.ID_TYPE_LOGEMENT
+	WHERE
+		VILLAGE.NOM_VILLAGE = 'Casa-Dali'
+		AND
+		TYPE_LOGEMENT.CODE_TYPE_LOGEMENT = 'C2';
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-26',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 106 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 4);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	SELECT
+         '2022-03-27',
+		LOGEMENT.ID_LOGEMENT,
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		2
+	FROM
+		LOGEMENT
+            INNER JOIN VILLAGE
+                ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+            INNER JOIN TYPE_LOGEMENT
+                ON LOGEMENT.ID_TYPE_LOGEMENT = TYPE_LOGEMENT.ID_TYPE_LOGEMENT
+	WHERE
+		VILLAGE.NOM_VILLAGE = 'Casa-Dali'
+		AND
+		TYPE_LOGEMENT.CODE_TYPE_LOGEMENT = 'C2';
+INSERT INTO
+    SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-27',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 106 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 4);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	SELECT
+         '2022-03-28',
+		LOGEMENT.ID_LOGEMENT,
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		2
+	FROM
+		LOGEMENT
+            INNER JOIN VILLAGE
+                ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+            INNER JOIN TYPE_LOGEMENT
+                ON LOGEMENT.ID_TYPE_LOGEMENT = TYPE_LOGEMENT.ID_TYPE_LOGEMENT
+	WHERE
+		VILLAGE.NOM_VILLAGE = 'Casa-Dali'
+		AND
+		TYPE_LOGEMENT.CODE_TYPE_LOGEMENT = 'C2';
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-28',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 106 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 4);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	SELECT
+         '2022-03-29',
+		LOGEMENT.ID_LOGEMENT,
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		2
+	FROM
+		LOGEMENT
+            INNER JOIN VILLAGE
+                ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+            INNER JOIN TYPE_LOGEMENT
+                ON LOGEMENT.ID_TYPE_LOGEMENT = TYPE_LOGEMENT.ID_TYPE_LOGEMENT
+	WHERE
+		VILLAGE.NOM_VILLAGE = 'Casa-Dali'
+		AND
+		TYPE_LOGEMENT.CODE_TYPE_LOGEMENT = 'C2';
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-29',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 106 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 4);
+
+-- fin réservation
+-- debut réservation
+/* réservation 8: 3 nuits - tous les logements de type D2 du village */
+INSERT INTO
+	RESERVATION
+		(
+		 DATE_RESERVATION,
+		 ID_CLIENT,
+		 ID_VILLAGE)
+	VALUES
+		(
+		 '2021-01-11',
+		 6,
+		 (SELECT ID_VILLAGE FROM VILLAGE WHERE NOM_VILLAGE = 'Casa-Dali'));
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	SELECT
+		
+         '2022-02-26',
+		LOGEMENT.ID_LOGEMENT,
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		4
+	FROM
+		LOGEMENT
+            INNER JOIN VILLAGE
+                ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+            INNER JOIN TYPE_LOGEMENT
+                ON LOGEMENT.ID_TYPE_LOGEMENT = TYPE_LOGEMENT.ID_TYPE_LOGEMENT
+	WHERE
+		VILLAGE.NOM_VILLAGE = 'Casa-Dali'
+		AND
+		TYPE_LOGEMENT.CODE_TYPE_LOGEMENT = 'D2';
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	SELECT
+		
+         '2022-02-27',
+		LOGEMENT.ID_LOGEMENT,
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		4
+	FROM
+		LOGEMENT
+            INNER JOIN VILLAGE
+                ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+            INNER JOIN TYPE_LOGEMENT
+                ON LOGEMENT.ID_TYPE_LOGEMENT = TYPE_LOGEMENT.ID_TYPE_LOGEMENT
+	WHERE
+		VILLAGE.NOM_VILLAGE = 'Casa-Dali'
+		AND
+		TYPE_LOGEMENT.CODE_TYPE_LOGEMENT = 'D2';
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	SELECT
+		
+         '2022-02-28',
+		LOGEMENT.ID_LOGEMENT,
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		4
+	FROM
+		LOGEMENT
+            INNER JOIN VILLAGE
+                ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+            INNER JOIN TYPE_LOGEMENT
+                ON LOGEMENT.ID_TYPE_LOGEMENT = TYPE_LOGEMENT.ID_TYPE_LOGEMENT
+	WHERE
+		VILLAGE.NOM_VILLAGE = 'Casa-Dali'
+		AND
+		TYPE_LOGEMENT.CODE_TYPE_LOGEMENT = 'D2';
+
+-- fin réservation
+-- debut réservation
+/* réservation 9: 6 nuits - 1 logement */
+INSERT INTO
+	RESERVATION
+		(
+		 DATE_RESERVATION,
+		 ID_CLIENT,
+		 ID_VILLAGE)
+	VALUES
+		(
+		 '2022-02-19',
+		 7,
+		 (SELECT ID_VILLAGE FROM VILLAGE WHERE NOM_VILLAGE = 'Casa-Dali'));
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-31',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 105 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 6);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-04-01',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 105 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 6);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-04-02',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 105 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 6);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-04-03',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 105 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 6);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-04-04',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 105 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 6);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-04-05',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 105 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 6);
+-- fin réservation
+/* réservation 10 : 2 nuits - 1 logement */
+INSERT INTO
+	RESERVATION
+		(
+		 DATE_RESERVATION,
+		 ID_CLIENT,
+		 ID_VILLAGE)
+	VALUES
+		(
+		 '2022-01-31',
+		 12,
+		 (SELECT ID_VILLAGE FROM VILLAGE WHERE NOM_VILLAGE = 'Casa-Dali'));
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-04-03',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 108 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-04-04',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 108 AND
+            VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+-- fin réservation */
+
+-- debut réservation
+/* réservation 11: 39 nuits - 1 logement */
+INSERT INTO
+	RESERVATION
+		(
+		 DATE_RESERVATION,
+		 ID_CLIENT,
+		 ID_VILLAGE)
+	VALUES
+		(
+		 '2022-01-02',
+		 14,
+		 (SELECT ID_VILLAGE FROM VILLAGE WHERE NOM_VILLAGE = 'Casa-Dali'));
+
+
+DECLARE @DATE_DEBUT AS DATE
+DECLARE @DATE_FIN AS DATE
+DECLARE @DATE_SEJ AS DATE
+
+SET @DATE_DEBUT = '2022-02-24'
+SET @DATE_FIN = '2022-04-03'
+SET @DATE_SEJ = @DATE_DEBUT
+
+WHILE (@DATE_SEJ < @DATE_FIN)
+BEGIN
+		INSERT INTO
+            SEJOUR
+                (
+                 DATE_SEJOUR,
+                 ID_LOGEMENT,
+                 ID_RESERVATION,
+                 NB_PERSONNES)
+            VALUES
+                (
+                 @DATE_SEJ,
+                 (SELECT
+                    ID_LOGEMENT
+                  FROM
+                    LOGEMENT
+                        INNER JOIN VILLAGE
+                            ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+                  WHERE
+                    LOGEMENT.NO_LOGEMENT = 9 AND
+                    VILLAGE.NOM_VILLAGE = 'Casa-Dali'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+                 2);
+		SET @DATE_SEJ = DATEADD(DAY, 1, @DATE_SEJ)
+END
+
+-- fin réservation
+
+-- == Village Porto-Nuevo ==
+-- debut réservation
+/* réservation 12: 7 nuits - tous les logements village */
+INSERT INTO
+	RESERVATION
+		(
+		 DATE_RESERVATION,
+		 ID_CLIENT,
+		 ID_VILLAGE)
+	VALUES
+		(
+		 '2021-09-15',
+		 1,
+		 (SELECT ID_VILLAGE FROM VILLAGE WHERE NOM_VILLAGE = 'Porto-Nuevo'));
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	SELECT
+		
+        '2021-12-27',
+		LOGEMENT.ID_LOGEMENT,
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		2
+	FROM
+		LOGEMENT
+            INNER JOIN VILLAGE
+                ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+	WHERE
+		VILLAGE.NOM_VILLAGE = 'Porto-Nuevo';
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	SELECT
+		
+        '2021-12-28',
+		LOGEMENT.ID_LOGEMENT,
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		2
+	FROM
+		LOGEMENT
+            INNER JOIN VILLAGE
+                ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+	WHERE
+		VILLAGE.NOM_VILLAGE = 'Porto-Nuevo';
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	SELECT
+		
+        '2021-12-29',
+		LOGEMENT.ID_LOGEMENT,
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		2
+	FROM
+		LOGEMENT
+            INNER JOIN VILLAGE
+                ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+	WHERE
+		VILLAGE.NOM_VILLAGE = 'Porto-Nuevo';
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	SELECT
+		
+        '2021-12-30',
+		LOGEMENT.ID_LOGEMENT,
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		2
+	FROM
+		LOGEMENT
+            INNER JOIN VILLAGE
+                ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+	WHERE
+		VILLAGE.NOM_VILLAGE = 'Porto-Nuevo';
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	SELECT
+		
+        '2021-12-31',
+		LOGEMENT.ID_LOGEMENT,
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		2
+	FROM
+		LOGEMENT
+            INNER JOIN VILLAGE
+                ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+	WHERE
+		VILLAGE.NOM_VILLAGE = 'Porto-Nuevo';
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	SELECT
+		
+        '2022-01-01',
+		LOGEMENT.ID_LOGEMENT,
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		2
+	FROM
+		LOGEMENT
+            INNER JOIN VILLAGE
+                ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+	WHERE
+		VILLAGE.NOM_VILLAGE = 'Porto-Nuevo';
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	SELECT
+		
+        '2022-01-02',
+		LOGEMENT.ID_LOGEMENT,
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		2
+	FROM
+		LOGEMENT
+            INNER JOIN VILLAGE
+                ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+	WHERE
+		VILLAGE.NOM_VILLAGE = 'Porto-Nuevo';
+-- fin réservation
+-- debut réservation
+/* réservation 13: 5 nuits - tous les logements village */
+INSERT INTO
+	RESERVATION
+		(
+		 DATE_RESERVATION,
+		 ID_CLIENT,
+		 ID_VILLAGE)
+	VALUES
+		(
+		 '2022-02-17',
+		 3,
+		 (SELECT ID_VILLAGE FROM VILLAGE WHERE NOM_VILLAGE = 'Porto-Nuevo'));
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	SELECT
+		
+        '2023-03-02',
+		LOGEMENT.ID_LOGEMENT,
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		2
+	FROM
+		LOGEMENT
+            INNER JOIN VILLAGE
+                ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+	WHERE
+		VILLAGE.NOM_VILLAGE = 'Porto-Nuevo';
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	SELECT
+		
+        '2023-03-03',
+		LOGEMENT.ID_LOGEMENT,
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		2
+	FROM
+		LOGEMENT
+            INNER JOIN VILLAGE
+                ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+	WHERE
+		VILLAGE.NOM_VILLAGE = 'Porto-Nuevo';
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	SELECT
+		
+        '2023-03-04',
+		LOGEMENT.ID_LOGEMENT,
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		2
+	FROM
+		LOGEMENT
+            INNER JOIN VILLAGE
+                ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+	WHERE
+		VILLAGE.NOM_VILLAGE = 'Porto-Nuevo';
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	SELECT
+		
+        '2023-03-05',
+		LOGEMENT.ID_LOGEMENT,
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		2
+	FROM
+		LOGEMENT
+            INNER JOIN VILLAGE
+                ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+	WHERE
+		VILLAGE.NOM_VILLAGE = 'Porto-Nuevo';
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	SELECT
+		
+        '2023-03-06',
+		LOGEMENT.ID_LOGEMENT,
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		2
+	FROM
+		LOGEMENT
+            INNER JOIN VILLAGE
+                ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+	WHERE
+		VILLAGE.NOM_VILLAGE = 'Porto-Nuevo';
+-- fin réservation
+
+-- debut réservation
+/* réservation 14:3 nuits - 1 logement */
+INSERT INTO
+	RESERVATION
+		(
+		 DATE_RESERVATION,
+		 ID_CLIENT,
+		 ID_VILLAGE)
+	VALUES
+		(
+		 '2022-02-28',
+		 1,
+		 (SELECT ID_VILLAGE FROM VILLAGE WHERE NOM_VILLAGE = 'Porto-Nuevo'));
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-07',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 1 AND
+            VILLAGE.NOM_VILLAGE = 'Porto-Nuevo'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-08',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 1 AND
+            VILLAGE.NOM_VILLAGE = 'Porto-Nuevo'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-09',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 1 AND
+            VILLAGE.NOM_VILLAGE = 'Porto-Nuevo'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+-- fin réservation
+-- debut réservation
+/* réservation 15: 6 nuits - 2 logements */
+INSERT INTO
+	RESERVATION
+		(
+		 DATE_RESERVATION,
+		 ID_CLIENT,
+		 ID_VILLAGE)
+	VALUES
+		(
+		 '2022-02-28',
+		 8,
+		 (SELECT ID_VILLAGE FROM VILLAGE WHERE NOM_VILLAGE = 'Porto-Nuevo'));
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-09',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 2 AND
+            VILLAGE.NOM_VILLAGE = 'Porto-Nuevo'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-09',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 3 AND
+            VILLAGE.NOM_VILLAGE = 'Porto-Nuevo'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-10',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 2 AND
+            VILLAGE.NOM_VILLAGE = 'Porto-Nuevo'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-10',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 3 AND
+            VILLAGE.NOM_VILLAGE = 'Porto-Nuevo'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-11',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 2 AND
+            VILLAGE.NOM_VILLAGE = 'Porto-Nuevo'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-11',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 3 AND
+            VILLAGE.NOM_VILLAGE = 'Porto-Nuevo'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-12',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 2 AND
+            VILLAGE.NOM_VILLAGE = 'Porto-Nuevo'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-12',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 3 AND
+            VILLAGE.NOM_VILLAGE = 'Porto-Nuevo'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-13',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 2 AND
+            VILLAGE.NOM_VILLAGE = 'Porto-Nuevo'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-13',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 3 AND
+            VILLAGE.NOM_VILLAGE = 'Porto-Nuevo'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-14',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 2 AND
+            VILLAGE.NOM_VILLAGE = 'Porto-Nuevo'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-14',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 3 AND
+            VILLAGE.NOM_VILLAGE = 'Porto-Nuevo'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 2);
+-- fin réservation
+----**********
+-- debut réservation
+/* réservation 16: 1 nuit - 1 logement */
+INSERT INTO
+	RESERVATION
+		(
+		 DATE_RESERVATION,
+		 ID_CLIENT,
+		 ID_VILLAGE)
+	VALUES
+		(
+		 '2022-02-19',
+		 4,
+		 (SELECT ID_VILLAGE FROM VILLAGE WHERE NOM_VILLAGE = 'Porto-Nuevo'));
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-01',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 108 AND
+            VILLAGE.NOM_VILLAGE = 'Porto-Nuevo'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 3);
+-- fin réservation
+
+-- == Village Kouros ==
+-- debut réservation
+/* réservation 17: 4 nuits - 1 logement */
+INSERT INTO
+	RESERVATION
+		(
+		 DATE_RESERVATION,
+		 ID_CLIENT,
+		 ID_VILLAGE)
+	VALUES
+		(
+		 '2022-02-24',
+		 9,
+		 (SELECT ID_VILLAGE FROM VILLAGE WHERE NOM_VILLAGE = 'Kouros'));
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-17',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 19 AND
+            VILLAGE.NOM_VILLAGE = 'Kouros'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 1);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-18',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 19 AND
+            VILLAGE.NOM_VILLAGE = 'Kouros'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 1);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-19',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 19 AND
+            VILLAGE.NOM_VILLAGE = 'Kouros'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 1);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-20',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 19 AND
+            VILLAGE.NOM_VILLAGE = 'Kouros'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 1);
+-- fin réservation
+/* réservation 18: 3 nuits - 2 logements */
+INSERT INTO
+	RESERVATION
+		(
+		 DATE_RESERVATION,
+		 ID_CLIENT,
+		 ID_VILLAGE)
+	VALUES
+		(
+		 '2022-02-25',
+		 13,
+		 (SELECT ID_VILLAGE FROM VILLAGE WHERE NOM_VILLAGE = 'Kouros'));
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-18',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 8 AND
+            VILLAGE.NOM_VILLAGE = 'Kouros'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 1);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-19',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 8 AND
+            VILLAGE.NOM_VILLAGE = 'Kouros'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 1);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-20',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 8 AND
+            VILLAGE.NOM_VILLAGE = 'Kouros'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 1);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-18',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 107 AND
+            VILLAGE.NOM_VILLAGE = 'Kouros'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 4);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-19',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 107 AND
+            VILLAGE.NOM_VILLAGE = 'Kouros'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 4);
+INSERT INTO
+	SEJOUR
+		(
+         DATE_SEJOUR,
+		 ID_LOGEMENT,
+		 ID_RESERVATION,
+		 NB_PERSONNES)
+	VALUES
+		(
+         '2022-03-20',
+        (SELECT
+            ID_LOGEMENT
+          FROM
+            LOGEMENT
+                INNER JOIN VILLAGE
+                    ON LOGEMENT.ID_VILLAGE = VILLAGE.ID_VILLAGE
+          WHERE
+            LOGEMENT.NO_LOGEMENT = 107 AND
+            VILLAGE.NOM_VILLAGE = 'Kouros'),
+		 (SELECT TOP 1 ID_RESERVATION
+			FROM RESERVATION
+			ORDER BY ID_RESERVATION DESC),
+		 4);
+-- fin réservation
+----**********

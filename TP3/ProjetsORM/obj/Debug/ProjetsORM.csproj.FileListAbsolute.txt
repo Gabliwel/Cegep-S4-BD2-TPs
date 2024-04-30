@@ -1,0 +1,583 @@
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\obj\Debug\ProjetsORM.csprojAssemblyReference.cache
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\obj\Debug\ProjetsORM.csproj.CoreCompileInputs.cache
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\xunit.abstractions.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\xunit.runner.visualstudio.testadapter.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\xunit.runner.reporters.net452.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\xunit.runner.utility.net452.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\ProjetsORM.exe.config
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\ProjetsORM.exe
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\ProjetsORM.pdb
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Data.SqlClient.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Identity.Client.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\System.Buffers.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\System.Collections.Immutable.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\System.Memory.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\System.Numerics.Vectors.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\xunit.assert.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\xunit.core.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\xunit.execution.desktop.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Data.SqlClient.pdb
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.InMemory.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Identity.Client.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\System.Buffers.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\System.Collections.Immutable.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\System.Memory.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\System.Numerics.Vectors.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\xunit.assert.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\xunit.core.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\xunit.execution.desktop.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\obj\Debug\ProjetsORM.csproj.CopyComplete
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\obj\Debug\ProjetsORM.exe
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\ProjetsORM\ProjetsORM\obj\Debug\ProjetsORM.pdb
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\xunit.runner.visualstudio.testadapter.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\xunit.runner.reporters.net452.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\xunit.runner.utility.net452.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\xunit.abstractions.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\ProjetsORM.exe.config
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\ProjetsORM.exe
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\ProjetsORM.pdb
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Data.SqlClient.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Identity.Client.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\System.Buffers.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\System.Collections.Immutable.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\System.Memory.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\System.Numerics.Vectors.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\xunit.assert.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\xunit.core.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\xunit.execution.desktop.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Data.SqlClient.pdb
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.InMemory.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Identity.Client.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\System.Buffers.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\System.Collections.Immutable.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\System.Memory.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\System.Numerics.Vectors.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\xunit.assert.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\xunit.core.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\xunit.execution.desktop.xml
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\obj\Debug\ProjetsORM.csprojAssemblyReference.cache
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\obj\Debug\ProjetsORM.csproj.CoreCompileInputs.cache
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\obj\Debug\ProjetsORM.csproj.CopyComplete
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\obj\Debug\ProjetsORM.exe
+C:\Cours Ste-Foy\2019-20-H2020\410 - BD\Travaux pratiques\TP2\SolutionH2020\ProjetsORM\ProjetsORM\obj\Debug\ProjetsORM.pdb
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\xunit.runner.visualstudio.testadapter.dll
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\xunit.runner.reporters.net452.dll
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\xunit.runner.utility.net452.dll
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\xunit.abstractions.dll
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\ProjetsORM.exe.config
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\ProjetsORM.exe
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\ProjetsORM.pdb
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Data.SqlClient.dll
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Identity.Client.dll
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\System.Buffers.dll
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\System.Collections.Immutable.dll
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\System.Memory.dll
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\System.Numerics.Vectors.dll
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\xunit.assert.dll
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\xunit.core.dll
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\xunit.execution.desktop.dll
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Data.SqlClient.pdb
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.xml
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.InMemory.xml
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\Microsoft.Identity.Client.xml
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\System.Buffers.xml
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\System.Collections.Immutable.xml
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\System.Memory.xml
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\System.Numerics.Vectors.xml
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\xunit.assert.xml
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\xunit.core.xml
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\xunit.execution.desktop.xml
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\obj\Debug\ProjetsORM.csprojAssemblyReference.cache
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\obj\Debug\ProjetsORM.csproj.CoreCompileInputs.cache
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\obj\Debug\ProjetsORM.csproj.CopyComplete
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\obj\Debug\ProjetsORM.exe
+C:\Cours Ste-Foy\2020-21-H2021\W49 - Bases de données II\Travaux\TP1 - ORM\SolutionH2021\ProjetsORM\ProjetsORM\obj\Debug\ProjetsORM.pdb
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\xunit.abstractions.dll
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\xunit.runner.visualstudio.testadapter.dll
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\xunit.runner.reporters.net452.dll
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\xunit.runner.utility.net452.dll
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\ProjetsORM.exe.config
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\ProjetsORM.exe
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\ProjetsORM.pdb
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Data.SqlClient.dll
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Options.dll
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Identity.Client.dll
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\System.Buffers.dll
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\System.Collections.Immutable.dll
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\System.ComponentModel.Annotations.dll
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\System.Memory.dll
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\System.Numerics.Vectors.dll
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\xunit.assert.dll
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\xunit.core.dll
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\xunit.execution.desktop.dll
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Data.SqlClient.pdb
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.xml
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.InMemory.xml
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Options.xml
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Identity.Client.xml
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\System.Buffers.xml
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\System.Collections.Immutable.xml
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\System.Memory.xml
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\System.Numerics.Vectors.xml
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\xunit.assert.xml
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\xunit.core.xml
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\xunit.execution.desktop.xml
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\obj\Debug\ProjetsORM.csprojAssemblyReference.cache
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\obj\Debug\ProjetsORM.csproj.CoreCompileInputs.cache
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\obj\Debug\ProjetsORM.csproj.CopyComplete
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\obj\Debug\ProjetsORM.exe
+C:\DATA\GitHubRepositories\H21-BDII\ORM\W49-H2021-SolutionTP1ORM\ProjetsORM\obj\Debug\ProjetsORM.pdb
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\obj\Debug\ProjetsORM.csproj.AssemblyReference.cache
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\obj\Debug\ProjetsORM.csproj.SuggestedBindingRedirects.cache
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\obj\Debug\ProjetsORM.csproj.CoreCompileInputs.cache
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\obj\Debug\ProjetsORM.exe
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\obj\Debug\ProjetsORM.pdb
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\xunit.abstractions.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\xunit.runner.visualstudio.testadapter.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\xunit.runner.reporters.net452.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\xunit.runner.utility.net452.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\ProjetsORM.exe.config
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\ProjetsORM.exe
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\ProjetsORM.pdb
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Data.SqlClient.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Options.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Identity.Client.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\System.Buffers.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\System.Collections.Immutable.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\System.ComponentModel.Annotations.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\System.Memory.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\System.Numerics.Vectors.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\xunit.assert.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\xunit.core.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\xunit.execution.desktop.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Data.SqlClient.pdb
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.InMemory.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Options.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\Microsoft.Identity.Client.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\System.Buffers.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\System.Collections.Immutable.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\System.Memory.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\System.Numerics.Vectors.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\xunit.assert.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\xunit.core.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\xunit.execution.desktop.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2021-SolutionTP1ORM\ProjetsORM\obj\Debug\ProjetsORM.csproj.CopyComplete
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\xunit.runner.visualstudio.testadapter.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\xunit.runner.reporters.net452.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\xunit.runner.utility.net452.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\xunit.abstractions.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\ProjetsORM.exe.config
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\ProjetsORM.exe
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\ProjetsORM.pdb
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Data.SqlClient.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Options.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Identity.Client.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\System.Buffers.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\System.Collections.Immutable.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\System.ComponentModel.Annotations.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\System.Memory.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\System.Numerics.Vectors.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\xunit.assert.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\xunit.core.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\xunit.execution.desktop.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Data.SqlClient.pdb
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.InMemory.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Options.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Identity.Client.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\System.Buffers.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\System.Collections.Immutable.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\System.Memory.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\System.Numerics.Vectors.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\xunit.assert.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\xunit.core.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\xunit.execution.desktop.xml
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\obj\Debug\ProjetsORM.csproj.AssemblyReference.cache
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\obj\Debug\ProjetsORM.csproj.SuggestedBindingRedirects.cache
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\obj\Debug\ProjetsORM.csproj.CoreCompileInputs.cache
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\obj\Debug\ProjetsORM.csproj.CopyComplete
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\obj\Debug\ProjetsORM.exe
+C:\DATA\GitHubRepositories\H22-BDII\W49-H2022-TP-ORM\ProjetsORM\obj\Debug\ProjetsORM.pdb
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\obj\Debug\ProjetsORM.csproj.AssemblyReference.cache
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\obj\Debug\ProjetsORM.csproj.CoreCompileInputs.cache
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\obj\Debug\ProjetsORM.exe
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\obj\Debug\ProjetsORM.pdb
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\xunit.runner.visualstudio.testadapter.dll
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\xunit.runner.reporters.net452.dll
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\xunit.runner.utility.net452.dll
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\xunit.abstractions.dll
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\ProjetsORM.exe.config
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\ProjetsORM.exe
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\ProjetsORM.pdb
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Bcl.HashCode.dll
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Data.SqlClient.dll
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.dll
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Configuration.dll
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Options.dll
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Identity.Client.dll
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\System.Buffers.dll
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\System.Collections.Immutable.dll
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\System.ComponentModel.Annotations.dll
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\System.Memory.dll
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\System.Numerics.Vectors.dll
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\xunit.assert.dll
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\xunit.core.dll
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\xunit.execution.desktop.dll
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Bcl.HashCode.xml
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Data.SqlClient.pdb
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.xml
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.InMemory.xml
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Configuration.xml
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Options.xml
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\Microsoft.Identity.Client.xml
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\System.Buffers.xml
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\System.Collections.Immutable.xml
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\System.Memory.xml
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\System.Numerics.Vectors.xml
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\xunit.assert.xml
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\xunit.core.xml
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\xunit.execution.desktop.xml
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\session4\BaseDeDonné\tp3\W49-H2022-TP-ORM\ProjetsORM\obj\Debug\ProjetsORM.csproj.CopyComplete
